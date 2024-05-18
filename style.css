@@ -10,17 +10,17 @@ body {
 }
 
 .container {
-    background-color: #ffffff;
+    background-color: #c9bfbf;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 90%;
-    max-width: 600px;
+    max-width: 450px;
     text-align: center;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2.3em;
     margin-bottom: 20px;
     color: #353434;
 }
@@ -32,7 +32,7 @@ h1 {
 }
 
 #taskInput {
-    font-size: 1.5em;
+    font-size: 1.0em;
     padding: 10px;
     width: 70%;
     border: 1px solid #ccc;
@@ -41,7 +41,7 @@ h1 {
 }
 
 #addTaskButton {
-    font-size: 1.5em;
+    font-size: 1.0em;
     padding: 10px;
     border: none;
     background-color: #2e53d6;
@@ -51,7 +51,7 @@ h1 {
 }
 
 #addTaskButton:hover {
-    background-color: #12d13b;
+    background-color: #18812f;
 }
 
 #taskList {
@@ -60,7 +60,7 @@ h1 {
 }
 
 #taskList li {
-    font-size: 1.5em;
+    font-size: 1.0em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,7 +74,7 @@ h1 {
 }
 
 #taskList li button {
-    font-size: 1.2em;
+    font-size: 0.9em;
     background-color: #680c1b;
     color: white;
     border: none;
@@ -87,7 +87,7 @@ h1 {
 }
 
 #clearAllButton {
-    font-size: 1.5em;
+    font-size: 1.0em;
     padding: 10px;
     border: none;
     background-color: #680c1b;
@@ -110,7 +110,7 @@ h1 {
 }
 
 #taskList li input.edit-input {
-    font-size: 1.2em;
+    font-size: 0.9em;
     width: 70%;
     margin-right: 10px;
     padding: 5px;
