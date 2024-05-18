@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    background-color: #7c7c7e;
+    background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -22,7 +22,7 @@ body {
 h1 {
     font-size: 3em;
     margin-bottom: 20px;
-    color: #333;
+    color: #353434;
 }
 
 .input-container {
@@ -65,17 +65,17 @@ h1 {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #888383;
 }
 
 #taskList li.completed {
     text-decoration: line-through;
-    color: #999;
+    color: #eee7e7;
 }
 
 #taskList li button {
     font-size: 1.2em;
-    background-color: #dc3545;
+    background-color: #680c1b;
     color: white;
     border: none;
     border-radius: 5px;
@@ -83,14 +83,14 @@ h1 {
 }
 
 #taskList li button:hover {
-    background-color: #c82333;
+    background-color: #bd1616;
 }
 
 #clearAllButton {
     font-size: 1.5em;
     padding: 10px;
     border: none;
-    background-color: #520613;
+    background-color: #680c1b;
     color: white;
     border-radius: 5px;
     cursor: pointer;
@@ -98,7 +98,7 @@ h1 {
 }
 
 #clearAllButton:hover {
-    background-color: #f70808;
+    background-color: #bd1616;
 }
 #taskList li button.edit-button {
     background-color: #007bff;
