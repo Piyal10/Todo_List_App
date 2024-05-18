@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url(image/1.jpg);
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #7c7c7e;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    font-size: 1.5em;
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#addTaskButton {
+    font-size: 1.5em;
+    padding: 10px;
+    border: none;
+    background-color: #2e53d6;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addTaskButton:hover {
+    background-color: #12d13b;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+#taskList li {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#taskList li.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+#taskList li button {
+    font-size: 1.2em;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#taskList li button:hover {
+    background-color: #c82333;
+}
+
+#clearAllButton {
+    font-size: 1.5em;
+    padding: 10px;
+    border: none;
+    background-color: #520613;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#clearAllButton:hover {
+    background-color: #f70808;
+}
+#taskList li button.edit-button {
+    background-color: #007bff;
+    margin-right: 10px;
+}
+
+#taskList li button.edit-button:hover {
+    background-color: #0056b3;
+}
+
+#taskList li input.edit-input {
+    font-size: 1.2em;
+    width: 70%;
+    margin-right: 10px;
+    padding: 5px;
+}
